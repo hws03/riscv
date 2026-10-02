@@ -1,13 +1,6 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Fri Oct  2 01:45:59 2026
-| Host         : Lava running 64-bit major release  (build 9200)
-| Command      : report_timing -max_paths 1 -path_type full -file C:/users/hamza/Desktop/riscv/pipelined/fpga/results/critical_path.txt
-| Design       : core
-| Device       : 7a100t-csg324
-| Speed File   : -1  PRODUCTION 1.23 2018-06-13
-----------------------------------------------------------------------------------------------------------------------------------------
+
 
 Timing Report
 
