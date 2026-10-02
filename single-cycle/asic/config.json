@@ -1,0 +1,9 @@
+{
+  "DESIGN_NAME": "core",
+  "VERILOG_FILES": "dir::src/*.sv",
+  "VERILOG_DEFINES": ["SYNTHESIS"],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 60,
+  "FP_SIZING": "relative",
+  "PL_TARGET_DENSITY_PCT": 55
+}
