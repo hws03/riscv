@@ -11,14 +11,13 @@ module d_mem(
 logic[31:0] data_memory[0:31];
 
 
-`ifndef SYNTHESIS
 integer i;
 initial begin
     for (int i=0; i<32; i++) begin
         data_memory[i] = '0;
     end 
 end
-`endif
+
 
 always_ff @(posedge clk) begin
     if (wr_en) begin

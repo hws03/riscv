@@ -13,14 +13,12 @@ module regfile(
 logic[31:0] register[0:31];
 
 
-`ifndef SYNTHESIS
 integer i;
 initial begin
     for (int i=0; i<32; i++) begin
         register[i] = '0;
     end 
 end
-`endif
 
 
 //read

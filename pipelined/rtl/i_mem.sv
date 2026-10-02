@@ -15,7 +15,6 @@ logic[31:0] instruction_memory[0:31];
 assign instruc = instruction_memory[pc_addr[6:2]];
 
 
-`ifndef SYNTHESIS
 integer i;
 initial begin
     for (int i=0; i<32; i++) begin
@@ -25,7 +24,7 @@ initial begin
     $readmemh("program_to_run.mem", instruction_memory);
 
 end
-`endif
+
 
 always_ff @(posedge clk) begin
     if (prog_we)
