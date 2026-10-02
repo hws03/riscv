@@ -4,7 +4,7 @@
 
 
 ## Repo layout
-Each folder contains: `rtl/`, `tb/`, `programs/` (.s, .txt and .mem), `fpga/` (README, constraints and reports/results) and `asic/` (config and results).
+Each folder contains: `rtl/`, `tb/`, `programs/` (.s, .txt and .mem), `fpga/` (README, constraints and reports/results) and `asic/` (README, config and results).
 
 
 
