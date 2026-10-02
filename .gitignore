@@ -1,11 +1,12 @@
-#single-cycle
+#/single-cycle
 single-cycle/fpga/vivado/
 single-cycle/notes/
 single-cycle/asic/
 single-cycle/fpga/notes
 
-#piplined
+#/piplined
 pipelined/fpga/vivado
 pipelined/notes
 pipelined/fpga/notes
+pipelined/asic/notes
 pipelined/asic/
