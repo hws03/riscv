@@ -3,3 +3,9 @@ single-cycle/fpga/vivado/
 single-cycle/notes/
 single-cycle/asic/
 single-cycle/fpga/notes
+
+#piplined
+pipelined/fpga/vivado
+pipelined/notes
+pipelined/fpga/notes
+pipeline/asic/
