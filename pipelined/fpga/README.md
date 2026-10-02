@@ -5,3 +5,5 @@
 - Clock: 83.3 MHz (12 ns)
 
 - WNS: 0.386 ns
+
+- Programs cycle counts: Fibonacci(10) 71 cycles, factorial(5) 117 cycles
