@@ -6,7 +6,12 @@ FPGA (Vivado/Artix-7) + ASIC (LibreLane/SKY130) flows.
 
 
 ## Repo layout
-Each folder contains: `rtl/`, `tb/`, `programs/` (.s, .txt and .mem), `fpga/` (README, constraints and reports/results) and `asic/` (README, config and results).
+'single-cycle' and 'pipelined' each contain: 
+- `rtl/`
+- `tb/`
+- `programs/` (.asm, .txt and .mem)
+- `fpga/` (README, constraints and reports/results)
+- `asic/` (README, config and results).
 
 
 
