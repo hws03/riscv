@@ -1,3 +1,6 @@
+//detects if a load if followed by an isntruction that uses its result, if so, stalls
+
+
 module hazard_u(
     input logic[4:0] decode_rs1,
     input logic[4:0] decode_rs2,

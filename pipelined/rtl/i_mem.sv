@@ -1,3 +1,6 @@
+//return instructions at pc_addr (+load port to write programs in)
+
+
 module i_mem(
     input logic clk,
     input logic prog_we,
@@ -18,7 +21,7 @@ assign instruc = instruction_memory[pc_addr[6:2]];
 integer i;
 initial begin
     for (int i=0; i<32; i++) begin
-        instruction_memory[i] = 32'b00000000000000000000000000010011; //nops
+        instruction_memory[i] = 32'b00000000000000000000000000010011; //nops (addi x0, x0, 0)
     end 
 
     $readmemh("program_to_run.mem", instruction_memory);

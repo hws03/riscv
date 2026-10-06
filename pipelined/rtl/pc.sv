@@ -1,3 +1,6 @@
+//workout next pc 
+
+
 module pc(
     input logic[31:0] pc,
     input logic[31:0] imm,

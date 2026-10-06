@@ -1,3 +1,6 @@
+//reset, stall or increment pc
+
+
 module pcreg(
     input logic clk,
     input logic reset,

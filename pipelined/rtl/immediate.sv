@@ -1,3 +1,6 @@
+//extract immedaites from instruction formats that contain them (I, S, B, U, J)
+
+
 module immediate(
     input logic[31:0] instruc,
     

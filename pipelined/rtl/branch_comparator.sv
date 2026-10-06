@@ -1,3 +1,6 @@
+//check if a branch is taken for different branch types
+
+
 module branch_comparator(
     input logic[31:0] rs1_d,
     input logic[31:0] rs2_d,

@@ -1,3 +1,5 @@
+//turn opcode into control signals for each type of instruction
+
 module decoder(
     input logic[6:0] opcode,
     

@@ -1,3 +1,6 @@
+//parameterised pipeline register reused between stages in core.sv
+
+
 module pipeline_reg #(
     parameter WIDTH = 32
 )(

@@ -1,3 +1,6 @@
+//alu-logic unit: and, or, xor, shift left logical, shift right logical, shift right arithmetic
+
+
 module logic_u(
         input logic[31:0] a,
         input logic[31:0] b,

@@ -1,3 +1,6 @@
+//alu-arithmetic unit: addition, subtraction, set less than, set less than unsigned
+
+
 module arith_u(
         input logic[31:0] a,
         input logic[31:0] b,
