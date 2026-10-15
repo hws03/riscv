@@ -5,7 +5,7 @@
 FPGA (Vivado/Artix-7) + ASIC (LibreLane/SKY130) flows.
 
 
-<img width="260" height="701" alt="pipeline-block-diagram" src="https://github.com/user-attachments/assets/10816400-8367-4edb-8229-6a7cfb82f508" />
+<img width="260" height="722" alt="pipeline-block-diagram" src="https://github.com/user-attachments/assets/542fcf81-da66-4d08-9633-1e384901373b" />
 
 
 
